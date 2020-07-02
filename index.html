@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="Magic 8-Ball" content="A game of Magic 8-ball">
+<title>Magic 8-Ball</title>
+<script type="text/javascript" src="8ball.js"></script>
+<link rel="stylesheet" href="8ball.css">
+</head>
+
+<body>
+<container>
+    <header>
+        <h1>Magic 8-Ball</h1>
+    </header>
+    
+    <div id="greeting">
+        Welcome to Magic 8-Ball! 
+        <input type="text" name="name" placeholder="What is your name?">
+        <input type="submit" name="submit">
+    </div>
+
+    <div id="mainContent" class="hidden">
+        <div id="welcome"></div>
+        <input type="text" name="question" placeholder="What is your question?">
+        <input type="submit" name="questionSubmit">
+
+        <div id="question"></div>
+        <div id="answer"></div>
+    </div>
+
+</container>
+</body>
+
+</html>
