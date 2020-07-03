@@ -12,9 +12,9 @@ body{
     font-family: 'Montserrat', sans-serif
 }
 
-#answerImg{
+/* #answerImg{
     position: relative;
-}
+} */
 
 header h1{
     font-size: 5em;
@@ -22,15 +22,17 @@ header h1{
 }
 
 #answer{
-    max-width: 8em;
+    /* max-width: 8em;
     position: absolute;
     top: 2em;
-    left: 30.5em; 
+    left: 30.5em;  */
+    text-align: center;
+    color: blue;
 }
 
-img#triangle{
+/* img#triangle{
     width: 15em;
-}
+} */
 
 container{
     display: grid;
