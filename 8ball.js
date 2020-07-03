@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function(){
         
         document.querySelector("div#question").innerHTML = `<h2>${question.value}</h2>`;
 
-        document.querySelector("div#answer").innerHTML = `<h3>Magic 8-Ball says: ${randomAnswer()}</h3>`;
+        document.querySelector("div#answer").innerHTML = `<h3>${randomAnswer()}</h3>`;
         
     })
     
